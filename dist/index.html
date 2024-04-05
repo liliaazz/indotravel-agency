@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <title>IndoTravi</title>
+    <link rel="shortcut icon" href="images/ic_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="personalized.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+    
+
+    <header class=" flex justify-around md:flex-col lg:flex-row sm:flex-col flex-col h-auto bg-slate-400 text-white">
+        <div class="my-3 lg:ml-10 lg:w-1/2 w-full text-center lg:text-left">
+          <h1 class="font-bold ">IndoTravel</h1>
+        </div>
+
+        <hr class="mx-10 border-black">
+
+        <div class="lg:w-1/2 my-3 w-full">
+          <ul class="flex justify-around">
+
+            <a href="#" class="hover:underline"><li>home</li></a>
+            <a href="#" class="hover:underline"><li>Destinations</li></a>
+            <a href="#" class="hover:underline"><li>Reviews</li></a>
+            <a href="#" class="hover:underline"><li>Contact us</li></a>
+
+          </ul>
+        </div>
+    </header>
+
+    <main class="grid place-items-center items-center">
+
+        <div class="content  align-self-center">
+          <h2 class="text-7xl text-white text-center animate-fade animate-delay-300 animate-once">Extraordinary natural and culturel charm</h2>
+          <p class="text-white text-center text-xl animate-fade animate-delay-500 animate-once">Exploring indonesia is an unforgettable adventure</p>
+        </div>
+  
+        <div class="inputs flex-wrap flex lg:w-auto md:w-auto lg:flex-row md:flex-row sm:flex-col flex-col w-1/2 justify-around items-center h-auto animate-fade-up animate-delay-500">
+            <h2 class="mx-3 text-white lg:mt-0 sm:mt-4 ">Let's plan your trip!</h3>
+
+            <form class="flex-wrap mr-1.5 my-3 w-4">
+             <select id="budget" class="g-gray-50  text-gray-600 text-sm rounded-lg  block w-full p-2.5 dark:bg-gray-200 dark:border-gray-200 dark:placeholder-gray-400 dark:text-white">
+                   <option selected>Budget</option>
+                   <option value="100">less than 100$</option>
+                   <option value="+100"> 100$ - 500$</option>
+                   <option value="500">+500$</option>
+                   <option value="1000">+1000$</option>
+               </select>
+            </form>
+
+           
+
+           <form class="flex-wrap mr-1.5 my-3 w-4">
+            <select id="Guest" class="bg-gray-50  text-gray-600 text-sm rounded-lg  block w-full p-2.5 dark:bg-gray-200 dark:border-gray-200 dark:placeholder-gray-400 dark:text-white ">
+              <option selected>Guest</option>
+                  <option value="individual">1 person</option>
+                  <option value="couples">a couple</option>
+                  <option value="families">a whole family</option>
+                  <option value="groups">a whole group</option>
+              </select>
+            </form>
+
+            <div class="rounded-lg w-24 my-3 h-10 flex justify-center mr-1.5 bg-gray-200">
+              <button class="align-self-center cursor-pointer text-gray-700 ">Search</button>
+            </div>  
+
+        </div>
+      
+      
+    </main>
+
+    <section class="my-8">
+      
+      <div class="cards flex flex-wrap mx-auto justify-around w-fit ">
+
+        <!-- First card -->
+        <div class="card flex flex-col  w-48 justify-around my-3 mx-2 mt-5 rounded-lg p-2 bg-cloud-wisp shadow-2xl border-1 " data-aos="zoom-in" data-aos-delay="50">
+            <h2 class="self-center font-bold text-lg">20M+</h2>
+            <p class="text-gray-500 self-center text-sm">Total Customers</p>
+        </div>
+    
+        <!-- Second card -->
+        <div class=" card flex flex-col  w-48 justify-around my-3 mx-2 mt-5 rounded-lg p-2 bg-cloud-wisp shadow-2xl border-1" data-aos="zoom-in" data-aos-delay="150">
+            <h2 class="self-center font-bold text-lg">09+</h2>
+            <p class="text-gray-500 self-center text-sm">Years of experience</p>
+        </div>
+    
+        <!-- Third card -->
+        <div class="card flex flex-col  w-48 justify-around my-3 mx-2 mt-5 rounded-lg p-2 bg-cloud-wisp shadow-2xl border-1" data-aos="zoom-in" data-aos-delay="250">
+            <h2 class="self-center font-bold text-lg">22K</h2>
+            <p class="text-gray-500 self-center text-sm">Total Destinations</p>
+        </div>
+    
+        <!-- Fourth card -->
+        <div class="card flex flex-col  w-48 justify-around my-3 mx-2 mt-5 rounded-lg p-2 bg-cloud-wisp shadow-2xl border-1" data-aos="zoom-in" data-aos-delay="350">
+            <h2 class="self-center font-bold text-lg">5.0</h2>
+            <p class="text-gray-500 self-center text-sm">Average rating</p>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="flex w-fit mx-auto md:flex-row sm:flex-row lg:flex-row flex-col items-center justify-center">
+
+      <div class="container mr-2 flex">
+        <img src="images/walk_the_beach.jpg" alt="young adult walking on beach" height="500px" width="400px" class="self-center rounded-lg mx-auto">
+      </div>
+
+
+      <div class="flex flex-col align-items-center ">
+          <p class="text-gray-700 lg:text-left md:text-left sm:text-center lg:mt-0 md:mt-0 sm:mt-10 text-center mt-10">How it works</p>
+          <h1 class="text-2xl lg:text-left md:text-left sm:text-center text-center">One click for you!</h1>
+
+          <div class="flex test mt-5 rounded-lg p-2 bg-cloud-wisp shadow-2xl border-1" data-aos="zoom-in" data-aos-delay="50">
+            <img src="images/ic_search.svg" alt="icon search" height="30px" width="30px" class="mr-3 self-start mt-1">
+            <div class="flex flex-col">
+              <h6 class="font-bold">Find your destination</h6>
+              <p class="text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quas?</p>
+            </div>
+              
+           </div>
+ 
+           <div class="flex test mt-5 border-1 rounded-lg p-2 bg-cloud-wisp shadow-2xl" data-aos="zoom-in" data-aos-delay="150">
+               <img src="images/ic_chat.svg" alt="icon chat" height="25px" width="25px" class="mr-3 self-start mt-1">
+               <div class="flex flex-col ">
+                <h6 class="font-bold">Book a ticket</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quas?</p>
+               </div>
+               
+           </div>
+
+           <div class="flex test mt-5 border-1 rounded-lg p-2 bg-cloud-wisp shadow-2xl" data-aos="zoom-in" data-aos-delay="250">
+              <img src="images/ic_payment.svg" alt="icon payment" height="25px" width="25px" class="mr-3 self-start mt-1">
+              <div>
+                <h6 class="font-bold">Make a payment</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quas?</p>
+              </div>
+               
+           </div>
+          
+           <div class="flex test mt-5 border-1 rounded-lg p-2 bg-cloud-wisp shadow-2xl" data-aos="zoom-in" data-aos-delay="350">
+               <img src="images/ic_device.svg" alt="icon device" height="25px" width="25px" class="mr-3 self-start mt-1">
+               <div>
+                  <h6 class="font-bold">Explore destination</h6>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quas?</p>
+           
+               </div>
+
+            </div>
+
+      </div>
+    </section>
+
+    <section class="my-12">
+      <div>
+        <h1 class="text-center text-3xl font-bold">Destinations we offer</h1>
+      </div>
+
+      <div class="flex justify-around mt-4 flex-wrap">
+        <div class=" max-w-xs rounded overflow-hidden border-1 my-4 shadow-2xl landmark " data-aos="zoom-in" data-aos-delay="50">
+          <img class="w-full" src="images/forest.jpeg" alt="Sunset in the mountains">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Gunung Leuser Park</div>
+            <p class="text-gray-700 text-base">
+              Embark on a journey in Indonesia's vast forests, where untamed beauty and rich biodiversity promise an unforgettable adventure of discovery. 
+            </p>
+          </div>
+          <div class="flex px-6 py-4 justify-between">
+            <p class="font-bold text-xl mt-2 text-blue-700">199.99$</p>
+            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-2xl">Book now!</button>
+          </div>
+          
+        </div>
+  
+        <div class=" max-w-xs rounded overflow-hidden border-1 my-4 shadow-2xl landmark " data-aos="zoom-in" data-aos-delay="250">
+          <img class="w-full" src="images/img_sunset.jpg" alt="Sunset in the mountains">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+            <p class="text-gray-700 text-base">
+              Experience the breathtaking beauty of Indonesia's sunsets, painting the sky with hues of gold, crimson, and azure. Unforgettable moments await.            </p>
+          </div>
+          <div class="flex px-6 py-4 justify-between">
+            <p class="font-bold text-xl mt-2 text-blue-700">99.99$</p>
+            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-2xl">Book now!</button>
+          </div>
+        </div>
+  
+        <div class=" max-w-xs rounded overflow-hidden border-1 my-4 shadow-2xl landmark " data-aos="zoom-in" data-aos-delay="450">
+          <img class="w-full" src="images/img_montains.jpg" alt="Sunset in the mountains">
+          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Mount Bromo</div>
+            <p class="text-gray-700 text-base">
+              Embark on an epic journey to conquer Mount Bromo, where stunning vistas and thrilling trails await adventurous souls. Unforgettable experiences await.            </p>
+          </div>
+          <div class="flex px-6 py-4 justify-between">
+            <p class="font-bold text-xl mt-2 text-blue-700">199.99$</p>
+            <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded-2xl">Book now!</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center my-7" data-aos="zoom-in-up">
+        <button class="bg-transparent hover:bg-blue-500  rounded-2xl text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent ">View more</button>
+      </div>
+    </section>
+  
+
+    <section class="flex flex-col">
+      <h1 class="text-center text-3xl font-bold">Reviews About us</h1>
+      <div class="flex flex-col lg:flex-row w-3/5 mx-auto justify-around my-10">
+        <div class="lg:w-1/4 mr-4">
+          <div class="flex test rounded-lg p-2 bg-cloud-wisp shadow-2xl border-1 w-full">
+            <img src="images/daniel_avatar.png" alt="icon search" height="40px" width="40px" class="mr-3 self-start mt-1">
+            <div class="flex flex-col">
+              <h6 class="font-bold"id="name">Asma jabran</h6>
+              <p class="text-gray-700 text-sm" id="occupation">Algerian Blogger</p>
+            </div>
+              
+           </div>
+  
+           <div class="inline-flex mt-3">
+            <button class="bg-cloud-wisp hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l" id="prev">
+              prev
+            </button>
+            <button class="bg-cloud-wisp hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r" id="next">
+              Next
+            </button>
+          </div>
+        </div>
+        <div class="w-full lg:w-3/5 lg:mt-0 sm:mt-4 lg:ml-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam iste recusandae perspiciatis aspernatur est? Inventore id, modi ex dignissimos animi quasi error iure dolore, dolores at, sunt autem quis cumque.
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="relative bg-gray-800 pt-8 pb-6 text-white">
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap text-left lg:text-left">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl fonat-semibold text-white">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-white">
+              Find us on any of these platforms! And we will answer all your questions
+            </h5>
+            <div class="mt-6 lg:mb-0 mb-6">
+              <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <i class="fab fa-twitter"></i></button><button class="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <i class="fab fa-dribbble"></i></button><button class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+                <i class="fab fa-github"></i>
+              </button>
+            </div>
+          </div>
+          <div class="w-full lg:w-6/12 px-4">
+            <div class="flex flex-wrap items-top mb-6">
+              <div class="w-full lg:w-4/12 px-4 ml-auto">
+                <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-white hover:underline font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:underline font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:underline font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:underline font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full lg:w-4/12 px-4">
+                <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+                <ul class="list-unstyled">
+                  <li>
+                    <a class="text-white hover:underline font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT License</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:underline font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:underline font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a class="text-white hover:underline font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-blueGray-300">
+        <div class="flex flex-wrap items-center md:justify-between justify-center">
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-blueGray-500 font-semibold py-1">
+              Copyright © indotravel
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({
+      duration: 1000,
+      offset: 100,
+    });</script>
+
+</body>
+</html>
